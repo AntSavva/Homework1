@@ -1,0 +1,65 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    margin: 50px 0 50px 0;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.buttonmain{
+    width: 230px;
+    height: 70px;
+  
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button_inactive{
+    background-color:rgb(80, 159, 133) ;
+}
+
+.button_active{
+    background-color: aquamarine;
+}
+
+.inactive{
+    display: none;
+}
+
+
+
+.button_task{
+    border: 1px black solid;
+    width: 230px;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 50px 0 50px 0;
+}
+span{
+    font-size: 20px;
+}
+
+.True{
+ font-size: 1000px;
+ color: red;
+ font-weight: 900;
+}

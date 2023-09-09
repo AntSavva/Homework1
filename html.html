@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="container">
+            <div class="buttons">
+                <div class="buttonmain button_active">task1</div>
+                <div class="buttonmain button_inactive">task2</div>
+                <div class="buttonmain button_inactive">taks3</div>
+                <div class="buttonmain button_inactive">taks4</div>
+                <div class="buttonmain button_inactive">taks5</div>
+            
+            </div>
+            <div class="tasks">
+                <div class="task active">
+                    <div class="title">Сколько обоев</div>
+                    <input type="text" class="input_heightwall" value = 12 placeholder="Высота стены">
+                    <input type="text" class="input_widthwall" value = 10 placeholder="Ширина стены">
+                    <input type="text" class="input_ceiling" value = 2 placeholder="Высота потолка">
+                    <input type="text" class="input_color" value = 150 placeholder="Стоимость краски">
+                    <input type="text" class="input_wallpaper" value = 120 placeholder="Стоимость обои">
+                    <input type="text" class="input_widthwallpaper" value = 2 placeholder="Ширина обоев">
+                    <input type="text" class="input_heightwallpaper" value = 10 placeholder="Длина обоев">
+                    <input type="text" class="input_spendcolor" value = 0.7 placeholder="Расход краски на квадратный метр">
+                    <button class="buttonCalculate button_task">Посчитать</button>
+                    <div class="result"></div>
+
+                </div>
+                <div class="task inactive">
+                    <div class="title">Штрафы автомобиля</div>
+                        <input type="text" class="input_car" placeholder="Введите скорость">
+                        <button class="button_car button_task">Проверить скорость</button>
+                        <div class="taskcar"></div>
+                    </div>
+                <div class="task inactive">
+                    <div class="title">Подтягивания</div>
+                    <input type="text" class="input_student" placeholder="Количество студентов">
+                    <button class="button_pullup button_task">Выдать результаты</button>
+                    <div class="taskpullup"></div>
+                </div>
+                <div class="task inactive">
+                    <div class="title">Длинное слово</div>
+                    <input type="text" class="input_word" placeholder="Введите предложение">
+                    <button class="button_maxword button_task">Выдать результаты</button>
+                    <div class="taskmaxword"></div>
+                </div>
+                <div class="task inactive">
+                    <div class="title">Валидация</div>
+                    <input type="text" class="input_password" placeholder="Введите пароль">
+                    <button class="button_password button_task">Проверить</button>
+                    <div class="taskpassword"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
